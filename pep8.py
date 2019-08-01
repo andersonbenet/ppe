@@ -71,3 +71,13 @@ def calcula_quadrado(number):
 
 ret = calcula_quadrado(6)
 print(ret)
+
+
+
+#trabalhando com keywords arguments
+nome = "Laura"
+sobrenome = "Pelotrin"
+
+print(nome_completo(nome="Lais", sobrenome="Lath"))
+print(nome_completo(nome=nome, sobrenome=sobrenome))
+print(nome_completo(sobrenome="Polis", nome="Marta"))
