@@ -64,5 +64,10 @@ for i in range(5):
 
 
 
-def quadrado_de_7():
-    print(7*7)
+def calcula_quadrado(number):
+    number = number ** 2
+    return number
+
+
+ret = calcula_quadrado(6)
+print(ret)
