@@ -52,16 +52,16 @@ for numero in lista:
 for numero in range(1,10):
     print(numero)
 
-
+# from pep8 import falar_ola()  / usa-se este comando para realizar o import da funcion 
+#funcion whith return
 def falar_ola():
     return "oi"
-
-
 
 print(falar_ola())
 
 for i in range(5):
     falar_ola()
+
 
 
 def quadrado_de_7():
