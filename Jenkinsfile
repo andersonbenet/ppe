@@ -4,7 +4,7 @@ pipeline {
     stages { 
         stage('STAGE 00'){ 
             steps{
-                bat 'set'
+                bat 'pip install robotframework'
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
