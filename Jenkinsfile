@@ -4,7 +4,7 @@ pipeline {
     stages { 
         stage('STAGE 00'){ 
             steps{
-                bash '''#!/bin/bash
+                bat 'set'
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
